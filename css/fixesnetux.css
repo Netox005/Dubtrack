@@ -14,18 +14,6 @@
 }
 #chat .pusher-chat-widget-input p::after { content: " (You can't send messages)"; text-transform: none; }
 
-/* Add to playlist fixes */
-#addToPlaylistFloatContainer .create-playlist-header .icon-close { position: absolute; top: 15px; right: 15px; }
-#addToPlaylistFloatContainer .create-playlist-input { background: #666A6B; border-bottom: 2px solid #878c8e; }
-#addToPlaylistFloatContainer .create-playlist-input .playlist-input {
-    width: calc(100% - 2.75rem);
-    border-right: 1px solid #878C8E;
-    border-bottom: none;
-}
-#addToPlaylistFloatContainer .create-playlist-input .icon-add { top: 4px; }
-#addToPlaylistFloatContainer .playlist-list-action { padding-bottom: .5rem; margin-bottom: .75rem; max-height: 352px; }
-#addToPlaylistFloatContainer .playlist-list-action li:last-of-type { border-bottom: 1px solid #878c8e; }
-
 /* Chat avatars fix */
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row { border-radius: 10%; }
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row > img {
@@ -37,12 +25,13 @@
 }
 
 /* Twitch Emotes (DubX) size fixes */
-img.emoji.twitch-emoji[alt="fishmoley"] { min-width: 2.5rem; } /* fishmoley */
-img.emoji.twitch-emoji[alt="yetiz"] { min-width: 3rem; } /* :yetiz: */
-img.emoji.twitch-emoji[alt="lenny"] { min-width: 3.5rem; } /* :lenny: */
-img.emoji.twitch-emoji[alt="firespeed"] { min-width: 4rem; } /* firespeed */
-img.emoji.twitch-emoji[alt="shrug"] { min-width: 5rem; } /* :shrug: */
-img.emoji.twitch-emoji[alt="angelthump"], img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :angelthump:, :taxibro: */
+html.dubx img.emoji.twitch-emoji[alt="fishmoley"] { min-width: 2.5rem; } /* fishmoley */
+html.dubx img.emoji.twitch-emoji[alt="yetiz"] { min-width: 3rem; } /* :yetiz: */
+html.dubx img.emoji.twitch-emoji[alt="lenny"] { min-width: 3.5rem; } /* :lenny: */
+html.dubx img.emoji.twitch-emoji[alt="firespeed"] { min-width: 4rem; } /* firespeed */
+html.dubx img.emoji.twitch-emoji[alt="shrug"] { min-width: 5rem; } /* :shrug: */
+html.dubx img.emoji.twitch-emoji[alt="angelthump"],					   /* :angelthump: */
+html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxibro: */
 
 /* Profile fixes */
 #profileMainSection { top: 3.4rem; min-height: initial; height: calc(100vh - 6.9rem); overflow-y: auto; }
