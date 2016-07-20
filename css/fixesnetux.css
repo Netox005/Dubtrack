@@ -117,6 +117,11 @@ img.emoji.twitch-emoji[alt="angelthump"], img.emoji.twitch-emoji[alt="taxibro"] 
     top: -.5em;
 }
 
+/* Player placeholder fixes */
+#main_player .placeholder h5 { cursor: pointer; }
+#main_player .placeholder h5 span { font-weight: 700; text-transform: uppercase; }
+#main_player .placeholder h5 span i { padding: 0 .25rem .125rem; }
+
 /* Other fixes */
 .ps-container .ps-scrollbar-x,
 .ps-container .ps-scrollbar-y,
@@ -172,7 +177,6 @@ body.no-song-playing #player-controller .infoContainerInner:after { display: non
 #main_player .player_header span.display-queue::before { content: "Room "; } /* Better explained queue button on header */
 #player-controller .left ul li.infoContainer .infoContainerInner span { text-overflow: ellipsis; } /* Song title overflow ellipsis */
 body.no-song-playing #main_player .player_container #room-main-player-container:before { content: none; } /* Don't displaying video hidden icon when no song is playing */
-#main_player .placeholder h5 { cursor: pointer; } /* No song playing text with pointer cursor */
 #user_popover[style*="left: 0"] { border-radius: 0 1rem 0 0; } /* DJ User Popover border radius fix */
 #private-messages .message-details ul.message-list li.message-item .message-content p { word-wrap: break-word; } /* Don't overflow long private messages */
 #player-controller .left ul li.imgEl { cursor: pointer; } /* Cursor pointer on DJ avatar */
@@ -182,6 +186,8 @@ body.no-song-playing #main_player .player_container #room-main-player-container:
     width: auto;
     max-height: 35vh;
 }
+#main_avatar_room .avatar_tools .filter-toggle { font-family: consolas; text-transform: uppercase; } /* Change font of filter toggle in user list */
+
 
 /* Phone Mode Fixes */
 @media screen and (max-width: 72em) {
