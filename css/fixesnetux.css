@@ -111,6 +111,10 @@ html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxib
 #main_player .placeholder h5 span { font-weight: 700; text-transform: uppercase; }
 #main_player .placeholder h5 span i { padding: 0 .25rem .125rem; }
 
+/* Hide vote and add-to-playlist buttons when no song is playing */
+body.no-song-playing #player-controller .right ul li.remove-if-iframe { display: none; }
+body.no-song-playing #player-controller .right ul li.display-browser { width: 100%; }
+
 /* Other fixes */
 .ps-container .ps-scrollbar-x,
 .ps-container .ps-scrollbar-y,
@@ -121,16 +125,6 @@ html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxib
 #main-menu-left { top: 58px; height: calc(100% - 58px); padding-top: 3rem; } /* Left menu height fix */
 #chat .chat-container .chat-messages .chat-main li:not([class^="user-"]) { padding-bottom: .5rem; min-height: initial; } /* No user messages height fix */
 #chat .chat-options .chat-option-buttons span { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } /* No selection on chat options buttons */
-@media screen and (min-width: 72em) {
-    /* Fixed "Your playlists" title on browser */
-    #browser .browser-content .browser-content-main .sidebar .title {
-        text-align: center;
-        margin-top: 3.5rem;
-        padding: 1rem;
-    }
-    /* HD toggle position */
-    #main-room .left_section #main_player .player_sharing .videoquality-el { top: -3px; }
-}
 time.timeago { /* Time ago on messages not selectable */
     cursor: default;
     -ms-user-select: none;
@@ -161,7 +155,7 @@ body.no-song-playing #player-controller .infoContainerInner:after { display: non
     width: 100%;
     height: 100%;
 }
-#main-room .left_section #main_player .play-song-link { border-radius: .5rem; } /* Less border radius on "Queue a Song" button */
+#main-room .left_section #main_player .play-song-link-container > * { border-radius: .5rem; } /* Less border radius on "Queue a Song" and "Join/Leave Queue" buttons */
 #room-main-player-container-soundcloud .playerElement.soundcloud .redirect-link { font-size: 3.5rem !important; line-height: 1; } /* Soundcloud redirect icon size fix */
 #main_player .player_header span.display-queue::before { content: "Room "; } /* Better explained queue button on header */
 #player-controller .left ul li.infoContainer .infoContainerInner span { text-overflow: ellipsis; } /* Song title overflow ellipsis */
@@ -177,8 +171,20 @@ body.no-song-playing #main_player .player_container #room-main-player-container:
 }
 #main_avatar_room .avatar_tools .filter-toggle { font-family: consolas; text-transform: uppercase; } /* Change font of filter toggle in user list */
 
+/* PC Mode only fixes */
+@media screen and (min-width: 72em) {
+    #browser .browser-content .browser-content-main .sidebar .title { /* Fixed "Your playlists" title on browser */
+        text-align: center;
+        margin-top: 3.5rem;
+        padding: 1rem;
+    }
+    #main-room .left_section #main_player .player_sharing .videoquality-el { top: -3px; } /* HD toggle position */
+    /* Player controller right side width fix when no song is playing */
+    body.no-song-playing #player-controller .right { width: 6.72rem; }
+    body.no-song-playing #player-controller .left { padding-right: 6.72rem; }
+}
 
-/* Phone Mode Fixes */
+/* Mobile Mode only fixes */
 @media screen and (max-width: 72em) {
     #browser .browser-content .browser-content-main .nano .loading { z-index: 1; } /* Loading not overlapping with buttons */
     #addToPlaylistFloatContainer { border-radius: 0; padding: .5rem 0; background: rgba(84, 86 , 85, .9); } /* Add to playlist fixes */
