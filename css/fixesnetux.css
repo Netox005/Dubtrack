@@ -149,7 +149,7 @@ time.timeago { /* Time ago on messages not selectable */
     -webkit-user-select: none;
     user-select: none;
 }
-#avatar-list p.dubs span { font-family: monospace; font-size: 1.2rem } /* User list dubs num position fix */
+#avatar-list p.dubs span { font-family: monospace; font-size: 1.2rem; vertical-align: bottom; } /* User list dubs num position fix */
 img.emoji.twitch-emoji[alt="facepalm"] { background-color: white; } /* Facepalm coloring fix */
 #chat .chat-container li.isDefault.current-chat-user a.username, #chat .chat-container li.isDj.current-chat-user a.username { color: gold !important; } /* Gold color on user if it's pleb */
 body.no-song-playing #player-controller .infoContainerInner:after { display: none; } /* Progress bar not visible when no song is playing fix */
