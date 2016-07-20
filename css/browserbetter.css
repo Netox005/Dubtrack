@@ -1,10 +1,6 @@
 /* COMPLEMENTARY FILE, should be imported into another .css file */
 
-/* Centered vertically, not overlapping footer */
-#browser { z-index: 5; }
-#browser.animate { bottom: 7rem; padding-top: 10.6rem; }
-@media screen and (min-width: 72em) { #browser.animate { bottom: 3.5rem; padding-top: 7.1rem; } }
-#browser .browser-content { border-radius: 0; }
+/* Changed close button to be an X */
 span.close-browser { font-size: 1.125rem !important; padding-top: 1.2rem !important; }
 span.close-browser:before { content: "\e903"; }
 
@@ -19,27 +15,3 @@ span.close-browser:before { content: "\e903"; }
 #browser .browser-content:hover { background-color: rgba(0,0,0,.7); }
 #browser .browser-content .browser-content-main .nano { opacity: .6; transition: opacity .25s linear; }
 #browser .browser-content:hover .browser-content-main .nano { opacity: 1; }
-
-/*
-Position of song on playlist/queue/history
-Thanks to @Larry1123 for showing me the counter function, counter-reset and counter-increment CSS rules.
-*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems { counter-reset: browser-item-counter; }
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems > *[class$="-item"] figure { left: .2em; }
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems > *[class$="-item"] { border-left: 1em solid rgba(255,255,255,0.07); padding-left: 0; }
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems  > *[class$="-item"]::before {
-    counter-increment: browser-item-counter;
-    content: counter(browser-item-counter);
-    color: gold;
-    font-size: .5rem;
-    position: absolute;
-    top: 50%;
-    left: -1rem;
-    transform: translateY(-50%);
-    width: 1rem;
-    text-align: center;
-    line-height: 1;
-}
-
-/* Footer on top */
-#player-controller { z-index: 6; }
