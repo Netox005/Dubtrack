@@ -54,5 +54,17 @@ Imports:
     }
 }
 
+/* Info tab fixes */
+#room-info-display .room-info-display-wrapper h2 { margin-top: 1rem; margin-bottom: 2rem; font-size: 1.5rem; }
+#room-info-display .room-info-display-wrapper h2 span,
+#room-info-display .room-info-display-wrapper h2 span i {
+    font-size: 1rem;
+}
+
+/* Mod tab fixes */
+#mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
+
 /* Miscellaneous */
 #main_player .player_header span.display-queue::before { content: initial; }
