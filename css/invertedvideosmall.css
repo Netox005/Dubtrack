@@ -16,7 +16,7 @@
     #main_player .player_header {
         width: 73px;
         top: 8px !important;
-        height: 81.25%;
+        max-height: 81.25%;
         left: initial;
         right: -73px;
     }
