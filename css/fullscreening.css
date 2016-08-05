@@ -172,3 +172,13 @@ Imports:
     width: 65%;
     height: auto;
 }
+
+/* User banned text size fix */
+@media screen and (max-width: 80rem) and (min-width: 72rem), screen and (max-width: 26.26rem) {
+    #chat .pusher-chat-widget-input {
+        padding: .25rem;
+    }
+    #chat .pusher-chat-widget-input p {
+        padding: 0;
+    }
+}

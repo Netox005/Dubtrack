@@ -2,6 +2,7 @@
 
 /* User banned fix */
 #chat .pusher-chat-widget-input p {
+    padding: .5rem 0;
     text-align: center;
     font-weight: bold;
     color: #AB0000;
@@ -12,7 +13,7 @@
     user-select: none;
     text-transform: uppercase;
 }
-#chat .pusher-chat-widget-input p::after { content: " (You can't send messages)"; text-transform: none; }
+#chat .pusher-chat-widget-input p::after { content: " (you can't send messages)"; text-transform: none; }
 
 /* Chat avatars fix */
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row { border-radius: 10%; }
