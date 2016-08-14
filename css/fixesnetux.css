@@ -31,7 +31,7 @@ html.dubx img.emoji.twitch-emoji[alt="yetiz"] { min-width: 3rem; } /* :yetiz: */
 html.dubx img.emoji.twitch-emoji[alt="lenny"] { min-width: 3.5rem; } /* :lenny: */
 html.dubx img.emoji.twitch-emoji[alt="firespeed"] { min-width: 4rem; } /* firespeed */
 html.dubx img.emoji.twitch-emoji[alt="shrug"] { min-width: 5rem; } /* :shrug: */
-html.dubx img.emoji.twitch-emoji[alt="angelthump"],					   /* :angelthump: */
+html.dubx img.emoji.twitch-emoji[alt="angelthump"],	/* :angelthump: */
 html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxibro: */
 
 /* Profile fixes */
@@ -78,14 +78,17 @@ html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxib
 }
 
 /* Netux username */
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .text a.username { opacity: 0; }
-#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .text p:first-of-type:before {
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
+    color: rgba(0,0,0,0);
+}
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username > * {
+    display: none !important;
+}
+#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
     content: "ŋetux";
-    position: absolute;
     font-weight: 700;
     line-height: 1.2;
     color: #878c8e;
-    padding-top: 3px;
 }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .text p.deleted:first-of-type:before { content: ""; }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0.current-chat-user .activity-row .text p:first-of-type:before { color: gold; }
