@@ -10,7 +10,7 @@ propscmd:
     Originally intended to mention the current DJ to prop they for the song.
     Only works in room chat (obviously).
 
-Other scripts not here:
+##### Other scripts not here:
 
 [_give dem emotes_](https://cloudy-netux.rhcloud.com/dubtrack/give-dem-emotes):
     Replaces named emotes (the ones inside `:these:`) with the actual image.
