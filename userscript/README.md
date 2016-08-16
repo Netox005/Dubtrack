@@ -14,7 +14,7 @@ propscmd:
 
 [_give dem emotes_](https://cloudy-netux.rhcloud.com/dubtrack/give-dem-emotes):
     Replaces named emotes (the ones inside `:these:`) with the actual image.
-    Supports TwitchTV, BetterTwitchTV, TastyCat (DubX GitHub Repository host) and FrankerFaceZ (BetterDiscord GitHub Repository host)
+    Supports [TwitchTV](https://github.com/justintv/Twitch-API/blob/master/v2_resources/chat.md#get-chatemoticons), [Better TwitchTV](https://nightdev.com/betterttv/), [TastyCat](https://emotes.tastycat.org/) ([DubX GitHub Repository host)](https://github.com/sinfulBA/DubX-Script/blob/master/emotes/emotes.json)) and [FrankerFaceZ](https://www.frankerfacez.com/) ([BetterDiscord GitHub Repository host)](https://github.com/Jiiks/BetterDiscordApp/blob/master/data/emotedata_ffz.json))
     Works anywhere where emojis are replaced (`:D`, `;)`, etc)
 
 [image replacer](https://cloudy-netux.rhcloud.com/dubtrack/image-replacer):
@@ -25,3 +25,6 @@ propscmd:
 [RECMSG](https://cloudy-netux.rhcloud.com/dubtrack/RECMSG):
     Records every message sent in room chat and allows them to be shown after they are removed.
     Only works in room chat.
+
+##### About `redub_emotes.json`
+Planned to be used on _give dem emotes_ to add custom emotes not provided by any of the API's
