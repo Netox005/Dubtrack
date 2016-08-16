@@ -151,8 +151,8 @@ body.no-song-playing #main_player .player_container #room-main-player-container:
 #user_popover[style*="left: 0"] { border-radius: 0 1rem 0 0; } /* DJ User Popover border radius fix */
 #private-messages .message-details ul.message-list li.message-item .message-content p { word-wrap: break-word; } /* Don't overflow long private messages */
 #player-controller .left ul li.imgEl { cursor: pointer; } /* Cursor pointer on DJ avatar */
-#chat .chat-container .chat-messages .chat-main li .activity-row .text img,
-#private-messages .message-details ul.message-list li.message-item .message-content img { /* Images fix */
+#chat .chat-container .chat-messages .chat-main li .activity-row .text img:not(.redub.emote),
+#private-messages .message-details ul.message-list li.message-item .message-content img:not(.redub.emote) { /* Images fix */
     display: block;
     width: auto;
     max-height: 35vh;
