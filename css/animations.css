@@ -11,7 +11,11 @@
 }
 
 /* Share buttons coloring on hover */
-.icon-facebook, .icon-twitter { transition: color .25s linear; }
+.icon-github, .icon-reddit, .icon-youtube2, .icon-discord, .icon-facebook, .icon-twitter { transition: color .25s linear; }
+.social-links a.discord:hover, .social-links a.discord:focus, .icon-discord:hover { color: #7289da; }
+.social-links a.youtube:hover, .social-links a.youtube:focus, .icon-youtube:hover { color: #CC181E !important; }
+.social-links a.reddit:hover, .social-links a.reddit:focus, .icon-reddit:hover { color: #F2A04E; }
+.social-links a.github:hover, .social-links a.github:focus, .icon-github:hover { color: #A5A2C0; }
 a.facebook:hover, a.facebook:focus, .icon-facebook:hover { color: #3a5795; }
 a.twitter:hover, a.twitter:focus, .icon-twitter:hover { color: #55acee; }
 
