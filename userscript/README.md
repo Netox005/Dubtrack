@@ -22,9 +22,9 @@ propscmd:
     The main difference with _give dem emotes_ is that this one replaces the image **before sending the message**, and with the actual link of the image whereas _give dem emotes_ replaces the text when receiving the message.
     Only works in room chat.
 
-[RECMSG](https://cloudy-netux.rhcloud.com/dubtrack/RECMSG):
-    Records every message sent in room chat and allows them to be shown after they are removed.
-    Only works in room chat.
+~~[RECMSG](https://cloudy-netux.rhcloud.com/dubtrack/RECMSG):~~ **REMOVED, Dubtrack now allows for deleted messages to be shown for mods**
+    ~~Records every message sent in room chat and allows them to be shown after they are removed.
+    Only works in room chat.~~
 
 ##### About `redub_emotes.json`
 Planned to be used on _give dem emotes_ to add custom emotes not provided by any of the API's
