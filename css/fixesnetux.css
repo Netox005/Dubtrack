@@ -77,21 +77,38 @@ html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxib
     font-style: normal;
 }
 
-/* Netux username */
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
+/* Custom usernames
+Netux → 560b4a33d9057a0300cc2fa0
+Maskinen → 5607ef7e424a6203007d4fbe
+*/
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username,
+#chat .chat-container .chat-messages .chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .username {
     color: rgba(0,0,0,0);
 }
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username > * {
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username > *,
+#chat .chat-container .chat-messages .chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .username > * {
     display: none !important;
 }
-#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
-    content: "ŋetux";
+#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before,
+#chat .chat-main li.user-5607ef7e424a6203007d4fbe:not(.deleted-message) .activity-row .username::before {
     font-weight: 700;
     line-height: 1.2;
+}
+#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
+ 	content: "ŋetux";
     color: #878c8e;
 }
-#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .text p.deleted:first-of-type:before { content: ""; }
-#chat .chat-main li.user-560b4a33d9057a0300cc2fa0.current-chat-user .activity-row .text p:first-of-type:before { color: gold; }
+#chat .chat-main li.user-5607ef7e424a6203007d4fbe:not(.deleted-message) .activity-row .username::before {
+ 	content: "ℳaskinen";
+}
+#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .text p.deleted:first-of-type:before,
+#chat .chat-main li.user-5607ef7e424a6203007d4fbe:not(.deleted-message) .activity-row .text p.deleted:first-of-type:before {
+    content: "";
+}
+#chat .chat-main li.user-560b4a33d9057a0300cc2fa0.current-chat-user .activity-row .text p:first-of-type:before,
+#chat .chat-main li.user-5607ef7e424a6203007d4fbe.current-chat-user .activity-row .text p:first-of-type:before {
+    color: gold;
+}
 #chat .chat-container .chat-messages .chat-main li .chatDelete { z-index: 2; }
 
 /* Player placeholder fixes */

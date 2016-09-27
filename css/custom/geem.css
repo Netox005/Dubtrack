@@ -1,7 +1,7 @@
 /* Imports */
-@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
-@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
-@import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
+@import url("https://github.netux.ml/css/voteicons.css"); /* NB3 Vote Icons */
+@import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
+@import url("https://github.netux.ml/css/videosmall.css"); /* Small video */
 
 /* Video to the left */
 @media screen and (min-width: 72em) {
