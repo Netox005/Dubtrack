@@ -2,53 +2,40 @@
 
 Contact Netux in case you want your BOT added to the list:
 netuxbot: 561da9e034c45e0e0087b6d0
-nb3bot (deprecated): 56216481426d191300e5bfef
 nightbluebot: 56b2054200550001019554c8
 dubtrack_bot: 565aa52e6fe207830052f57f
-chilloutroomba: 56208ef772fbd14400119c64
-
 */
 
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .image_row,
-#chat .chat-main li.user-56216481426d191300e5bfef .image_row,
 #chat .chat-main li.user-56b2054200550001019554c8 .image_row,
-#chat .chat-main li.user-565aa52e6fe207830052f57f .image_row,
-#chat .chat-main li.user-56208ef772fbd14400119c64 .image_row {
+#chat .chat-main li.user-565aa52e6fe207830052f57f .image_row {
     opacity: 0 !important;
     width: 1.5rem !important;
     height: 1.5rem !important;
     z-index: 1;
 }
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row,
-#chat .chat-main li.user-56216481426d191300e5bfef .activity-row,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row,
-#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row,
-#chat .chat-main li.user-56208ef772fbd14400119c64 .activity-row {
+#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row {
     width: 100% !important;
     padding: .5em 0.75em .5em .25em !important;
 }
 
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username,
-#chat .chat-main li.user-56216481426d191300e5bfef .activity-row .username,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username,
-#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username,
-#chat .chat-main li.user-56208ef772fbd14400119c64 .activity-row .username {
+#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username {
     position: relative;
     color: rgba(0,0,0,0) !important;
     line-height: 1.3rem !important;
 }
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username > *,
-#chat .chat-main li.user-56216481426d191300e5bfef .activity-row .username > *,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username > *,
-#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username > *,
-#chat .chat-main li.user-56208ef772fbd14400119c64 .activity-row .username > * {
+#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username > * {
     display: none !important;
 }
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
-#chat .chat-main li.user-56216481426d191300e5bfef .activity-row .username::before,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before,
-#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before,
-#chat .chat-main li.user-56208ef772fbd14400119c64 .activity-row .username::before {
+#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before {
     position: absolute;
     top: 0;
     text-transform: uppercase;
@@ -71,26 +58,20 @@ chilloutroomba: 56208ef772fbd14400119c64
 }
 
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0:hover .activity-row .meta-info::before { content: "Lonely BOT without Room :("; }
-#chat .chat-main li.user-56216481426d191300e5bfef:hover .activity-row .meta-info::before { content: "Nightblue3 Room BOT (deprecated)"; }
 #chat .chat-main li.user-56b2054200550001019554c8:hover .activity-row .meta-info::before { content: "Nightblue3 Room BOT"; }
 #chat .chat-main li.user-565aa52e6fe207830052f57f:hover .activity-row .meta-info::before { content: "Dubtrack Official BOT"; }
-#chat .chat-main li.user-56208ef772fbd14400119c64:hover .activity-row .meta-info::before { content: "Chillout Music Room BOT"; }
 
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
-#chat .chat-main li.user-56216481426d191300e5bfef .activity-row .username::before,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before,
-#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before,
-#chat .chat-main li.user-56208ef772fbd14400119c64 .activity-row .username::before {
+#chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before {
     background: no-repeat left top;
     background-size: contain;
     padding-left: 1.5rem;
 }
 
 ul.avatar-list li.user-netuxbot p.dubs:before,
-ul.avatar-list li.user-nb3bot p.dubs:before,
 ul.avatar-list li.user-nightbluebot p.dubs:before,
-ul.avatar-list li.user-dubtrack_bot p.dubs:before,
-ul.avatar-list li.user-chilloutroomba p.dubs:before {
+ul.avatar-list li.user-dubtrack_bot p.dubs:before {
     content: "known BOT - ";
     color: #8751B7 !important;
 }
@@ -107,19 +88,6 @@ ul.avatar-list li.user-netuxbot p.dubs:before {
     color: #c3ff00 !important;
     content: "known BOT & Cyborg - "
 }
-
-/* nb3bot (deprecated) */
-#chat .chat-main li.user-56216481426d191300e5bfef .activity-row .username::before {
-
-}
-#chat .chat-main li.user-56216481426d191300e5bfef .activity-row .username::before {
-    content: "nightblue bot";
-    color: #7ec0ee !important;
-    font-size: .75rem;
-    background-image: url("https://i.imgur.com/tvPrbnV.png");
-}
-ul.avatar-list li.user-nb3bot p.username { color: #7ec0ee !important; }
-ul.avatar-list li.user-nb3bot p.dubs:before { color: #7ec0ee !important; }
 
 /* nightbluebot */
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before {
@@ -143,13 +111,3 @@ ul.avatar-list li.user-nightbluebot p.dubs:before {
 }
 ul.avatar-list li.user-dubtrack_bot p.username { color: #ff0097 !important; }
 ul.avatar-list li.user-dubtrack_bot p.dubs:before { color: #ff0097 !important; }
-
-/* chilloutroomba */
-#chat .chat-main li.user-56208ef772fbd14400119c64 .activity-row .username::before {
-    content: "chillout roomba";
-    color: #cc5a93;
-    font-size: .75rem;
-    background-image: url("https://i.imgur.com/eFwtMHk.gif");
-}
-ul.avatar-list li.user-chilloutroomba p.username { color: #cc5a93 !important; }
-ul.avatar-list li.user-chilloutroomba p.dubs:before { color: #cc5a93 !important; }
