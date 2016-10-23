@@ -102,7 +102,6 @@ body:not(.no-song-playing) #player-controller .left ul li.infoContainer .infoCon
 #addToPlaylistFloatContainer.playerBottomFixed {
     position: fixed;
     animation: add-to-playlist-bottom-to-top .3s linear;
-    z-index: 7;
 }
 
 /* Soundcloud redirect icon fading */
