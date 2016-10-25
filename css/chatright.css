@@ -1,4 +1,4 @@
-/* COMPLEMENTARY FILE, should be imported into another .css file */
+/* COMPLEMENTARY FILE, should be imported into another stylesheet file */
 
 @media screen and (min-width: 72em) { /* If not "phone mode" */
     /* Main functions */

@@ -1,4 +1,4 @@
-/* COMPLEMENTARY FILE, should be imported into another .css file */
+/* COMPLEMENTARY FILE, should be imported into another stylesheet file */
 
 /* Changed close button to be an X */
 span.close-browser { font-size: 1.125rem !important; padding-top: 1.2rem !important; }

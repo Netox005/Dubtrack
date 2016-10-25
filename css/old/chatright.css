@@ -1,4 +1,4 @@
-/* COMPLEMENTARY FILE, should be imported into another .css file */
+/* COMPLEMENTARY FILE, should be imported into another stylesheet file */
 
 /* Main function */
 #main-room:not(.fullscreenParent) { margin: 3px 0 0 0; }

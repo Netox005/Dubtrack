@@ -1,4 +1,4 @@
-/* COMPLEMENTARY FILE, should be imported into another .css file */
+/* COMPLEMENTARY FILE, should be imported into another stylesheet file */
 
 #player-controller .right ul li.remove-if-iframe.display-block:nth-of-type(1) { background-image: url('https://raw.githubusercontent.com/nightbloo/nightbloo.github.io/master/plug/icons/grab.png'); }
 #player-controller .right ul li.remove-if-iframe.display-block:nth-of-type(2) { background-image: url('https://raw.githubusercontent.com/nightbloo/nightbloo.github.io/master/plug/icons/woot.png'); }
