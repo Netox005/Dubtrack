@@ -1,0 +1,49 @@
+/*
+SEMI-COMPLEMENTARY FILE, can be imported into another stylesheet file as well as to function as an individual style
+
+Making Dubtrack a liiiiiiiiiiiiiiiiiittle bit smaller (you know, just .05% smaller)
+
+Features:
+- Reduces Dubtrack's overall size by .05%. Making it easier on the eyes.
+
+Imports: N/A
+*/
+
+/* Where the "mageek" happens */
+html {
+ 	font-size: .95rem;
+}
+
+/* Browser playlist list height fix */
+#browser .browser-content .browser-content-main .sidebar {
+    padding-bottom: 4.9rem;
+}
+
+/* Chat tools height fix */
+#chat .chat_tools span {
+ 	padding: 0 !important;
+}
+#chat .chat_tools span::before {
+ 	line-height: 3.1rem;
+}
+
+/* Left menu width fix */
+#main-menu-left {
+   width: 13.125rem;
+}
+
+/* Song title height fix */
+#player-controller .left ul li.infoContainer .infoContainerInner span {
+ 	line-height: 1.3;
+}
+
+/* If not mobile view */
+@media screen and (min-width: 72em) {
+    /* Player controller width fix */
+ 	#player-controller .right {
+        width: 25.2rem;
+	}
+    #player-controller .left {
+    	padding-right: 25.2rem;
+    }
+}
