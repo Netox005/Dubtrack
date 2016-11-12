@@ -85,7 +85,7 @@ TickingTime → 56d47266a3af139b0357f646
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username,
 #chat .chat-container .chat-messages .chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .username,
 #chat .chat-container .chat-messages .chat-main li.user-56d47266a3af139b0357f646 .activity-row .username {
-    color: rgba(0,0,0,0);
+    visibility: hidden;
 }
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username > *,
 #chat .chat-container .chat-messages .chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .username > *,
@@ -97,6 +97,7 @@ TickingTime → 56d47266a3af139b0357f646
 #chat .chat-main li.user-56d47266a3af139b0357f646 .activity-row .username::before {
     font-weight: 700;
     line-height: 1.2;
+    visibility: visible;
 }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username::before {
  	content: "ŋetux";
@@ -107,7 +108,6 @@ TickingTime → 56d47266a3af139b0357f646
 }
 #chat .chat-main li.user-56d47266a3af139b0357f646 .activity-row .username::before {
  	content: "ƮickingƮime";
-    color: #878c8e; /* Remind me to change this if he gets a role */
 }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .text p.deleted:first-of-type:before,
 #chat .chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .text p.deleted:first-of-type:before,
