@@ -6,19 +6,19 @@
 #main_player, #main_player .player_sharing { border-top: none; }
 #main_player .player_header,
 #main_player .player_sharing {
-    z-index: 6;
-    bottom: 0;
     width: 50%;
-    height: initial;
-    padding: 0;
-    background-color: rgba(0,0,0,.7);
-    opacity: 0;
-    transition: opacity .1s linear;
+    bottom: 0;
     height: 3rem;
+    padding: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,.7);
+    transition: opacity .1s linear;
+    z-index: 6;
 }
 #main_player:hover .player_header,
 #main_player:hover .player_sharing {
     opacity: 1;
+    z-index: 11;
 }
 #main_player .player_header {
     top: initial;
