@@ -1,17 +1,33 @@
 /* COMPLEMENTARY FILE, should be imported into another stylesheet file
 
 Contact Netux in case you want your BOT added to the list:
-netuxbot: 561da9e034c45e0e0087b6d0			-- <N/A>
-nightbluebot: 56b2054200550001019554c8		-- nightblue3
-dubtrack_bot: 565aa52e6fe207830052f57f		-- <SITE-WIDE>
-dillabot: 578921147c44828300c4dbdb			-- beats
-jacr: 572287bd911ea9130006869d				-- just-a-chill-room
-eve: 560164dd2e803803000fffb6				-- indie-discotheque
+totallynotatestbot: 5841c5139c2bef1100a85441 -- <N/A>
+nightbluebot: 56b2054200550001019554c8		 -- nightblue3
+dubtrack_bot: 565aa52e6fe207830052f57f		 -- <SITE-WIDE>
+waddiebot: 583f643c4f637ac600248bd1			 -- kappacave
+netuxbot: 561da9e034c45e0e0087b6d0			 -- <N/A>
+dillabot: 578921147c44828300c4dbdb			 -- beats
+jacr: 572287bd911ea9130006869d				 -- just-a-chill-room
+eve: 560164dd2e803803000fffb6				 -- indie-discotheque
 */
 
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .image_row,
+#chat .chat-main li.user-5841c5139c2bef1100a85441,
+#chat .chat-main li.user-56b2054200550001019554c8,
+#chat .chat-main li.user-565aa52e6fe207830052f57f,
+#chat .chat-main li.user-583f643c4f637ac600248bd1,
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0,
+#chat .chat-main li.user-578921147c44828300c4dbdb,
+#chat .chat-main li.user-572287bd911ea9130006869d,
+#chat .chat-main li.user-560164dd2e803803000fffb6 {
+    padding-bottom: 1rem;
+    margin-bottom: .5rem;
+}
+
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .image_row,
 #chat .chat-main li.user-56b2054200550001019554c8 .image_row,
 #chat .chat-main li.user-565aa52e6fe207830052f57f .image_row,
+#chat .chat-main li.user-583f643c4f637ac600248bd1 .image_row,
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .image_row,
 #chat .chat-main li.user-578921147c44828300c4dbdb .image_row,
 #chat .chat-main li.user-572287bd911ea9130006869d .image_row,
 #chat .chat-main li.user-560164dd2e803803000fffb6 .image_row {
@@ -20,9 +36,11 @@ eve: 560164dd2e803803000fffb6				-- indie-discotheque
     height: 1.5rem !important;
     z-index: 1;
 }
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row,
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row,
 #chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row,
+#chat .chat-main li.user-583f643c4f637ac600248bd1 .activity-row,
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row,
 #chat .chat-main li.user-578921147c44828300c4dbdb .activity-row,
 #chat .chat-main li.user-572287bd911ea9130006869d .activity-row,
 #chat .chat-main li.user-560164dd2e803803000fffb6 .activity-row {
@@ -30,9 +48,11 @@ eve: 560164dd2e803803000fffb6				-- indie-discotheque
     padding: .5em 0.75em .5em .25em !important;
 }
 
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username,
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username,
 #chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username,
+#chat .chat-main li.user-583f643c4f637ac600248bd1 .activity-row .username,
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username,
 #chat .chat-main li.user-578921147c44828300c4dbdb .activity-row .username,
 #chat .chat-main li.user-572287bd911ea9130006869d .activity-row .username,
 #chat .chat-main li.user-560164dd2e803803000fffb6 .activity-row .username {
@@ -40,17 +60,21 @@ eve: 560164dd2e803803000fffb6				-- indie-discotheque
     visibility: hidden;
     line-height: 1.3rem !important;
 }
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username > *,
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username > *,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username > *,
 #chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username > *,
+#chat .chat-main li.user-583f643c4f637ac600248bd1 .activity-row .username > *,
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username > *,
 #chat .chat-main li.user-578921147c44828300c4dbdb .activity-row .username > *,
 #chat .chat-main li.user-572287bd911ea9130006869d .activity-row .username > *,
 #chat .chat-main li.user-560164dd2e803803000fffb6 .activity-row .username > * {
     display: none !important;
 }
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username::before,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before,
 #chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before,
+#chat .chat-main li.user-583f643c4f637ac600248bd1 .activity-row .username::before,
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
 #chat .chat-main li.user-578921147c44828300c4dbdb .activity-row .username::before,
 #chat .chat-main li.user-572287bd911ea9130006869d .activity-row .username::before,
 #chat .chat-main li.user-560164dd2e803803000fffb6 .activity-row .username::before {
@@ -76,128 +100,144 @@ eve: 560164dd2e803803000fffb6				-- indie-discotheque
     opacity: 1;
 }
 
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0:hover .activity-row .meta-info::before { content: "Lonely BOT without Room :("; }
+#chat .chat-main li.user-5841c5139c2bef1100a85441:hover .activity-row .meta-info::before { content: "AngeloidIkaros's testing BOT"; }
 #chat .chat-main li.user-56b2054200550001019554c8:hover .activity-row .meta-info::before { content: "Nightblue3 Room BOT"; }
 #chat .chat-main li.user-565aa52e6fe207830052f57f:hover .activity-row .meta-info::before { content: "Dubtrack Official BOT"; }
+#chat .chat-main li.user-583f643c4f637ac600248bd1:hover .activity-row .meta-info::before { content: "KappCave Room Official BOT"; }
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0:hover .activity-row .meta-info::before { content: "Netux's testing BOT"; }
 #chat .chat-main li.user-578921147c44828300c4dbdb:hover .activity-row .meta-info::before { content: "[BEATS] Room Official BOT"; }
 #chat .chat-main li.user-572287bd911ea9130006869d:hover .activity-row .meta-info::before { content: "Just a chill room Official BOT"; }
 #chat .chat-main li.user-560164dd2e803803000fffb6:hover .activity-row .meta-info::before { content: "Indie Discotheque Room Official BOT"; }
 
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username::before,
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before,
 #chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before,
+#chat .chat-main li.user-583f643c4f637ac600248bd1 .activity-row .username::before,
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
 #chat .chat-main li.user-578921147c44828300c4dbdb .activity-row .username::before,
 #chat .chat-main li.user-572287bd911ea9130006869d .activity-row .username::before,
 #chat .chat-main li.user-560164dd2e803803000fffb6 .activity-row .username::before {
+    padding-left: 1.5rem;
+    font-size: .8rem;
     background: no-repeat left top;
     background-size: contain;
-    padding-left: 1.5rem;
 }
 
-#avatar ul.avatar-list li.user-netuxbot p.dubs:before,
-#avatar ul.avatar-list li.user-nightbluebot p.dubs:before,
-#avatar ul.avatar-list li.user-dubtrack_bot p.dubs:before,
-#avatar ul.avatar-list li.user-dillabot p.dubs:before,
-#avatar ul.avatar-list li.user-jacr p.dubs:before,
-#avatar ul.avatar-list li.user-eve p.dubs:before {
+#avatar ul.avatar-list li.userid-5841c5139c2bef1100a85441 p.dubs:before,
+#avatar ul.avatar-list li.userid-56b2054200550001019554c8 p.dubs:before,
+#avatar ul.avatar-list li.userid-565aa52e6fe207830052f57f p.dubs:before,
+#avatar ul.avatar-list li.userid-583f643c4f637ac600248bd1 p.dubs:before,
+#avatar ul.avatar-list li.userid-561da9e034c45e0e0087b6d0 p.dubs:before,
+#avatar ul.avatar-list li.userid-578921147c44828300c4dbdb p.dubs:before,
+#avatar ul.avatar-list li.userid-572287bd911ea9130006869d p.dubs:before,
+#avatar ul.avatar-list li.userid-560164dd2e803803000fffb6 p.dubs:before {
     content: "known BOT - ";
 
 }
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-netuxbot p.dubs:before,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-nightbluebot p.dubs:before,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-dubtrack_bot p.dubs:before,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-dillabot p.dubs:before,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-jacr p.dubs:before,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-eve p.dubs:before {
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-5841c5139c2bef1100a85441 p.dubs:before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-56b2054200550001019554c8 p.dubs:before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-565aa52e6fe207830052f57f p.dubs:before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-583f643c4f637ac600248bd1 p.dubs:before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-561da9e034c45e0e0087b6d0 p.dubs:before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-578921147c44828300c4dbdb p.dubs:before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-572287bd911ea9130006869d p.dubs:before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-560164dd2e803803000fffb6 p.dubs:before {
 	color: #8751B7 !important;
 }
 
-/* netuxbot */
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before {
-    content: "netux bot";
-    font-size: .75rem;
+/* totallynotatestbot */
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username::before {
+    content: "totally not ika's test bot";
     padding-left: 0;
 }
-#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before {
-   color: #c3ff00 !important;
+#chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-5841c5139c2bef1100a85441 p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-5841c5139c2bef1100a85441 p.dubs:before {
+    color: #a74fe3 !important;
 }
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-netuxbot p.username,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-netuxbot p.dubs:before {
-    color: #c3ff00 !important;
-}
-#avatar ul.avatar-list li.user-netuxbot p.dubs:before {
-    content: "known BOT & Cyborg - ";
+#avatar ul.avatar-list li.userid-5841c5139c2bef1100a85441 p.dubs:before {
+    content: "not really known BOT - ";
 }
 
 /* nightbluebot */
 #chat .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before {
     content: "nightblue bot";
-    font-size: .75rem;
     background-image: url("https://api.dubtrack.fm/user/56b2054200550001019554c8/image");
 }
-#chat:not(.role-colors-disabled) .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before {
-   color: #7ec0ee !important;
-}
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-nightbluebot p.username,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-nightbluebot p.dubs:before {
+#chat:not(.role-colors-disabled) .chat-main li.user-56b2054200550001019554c8 .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-56b2054200550001019554c8 p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-56b2054200550001019554c8 p.dubs:before {
     color: #7ec0ee !important;
-}
-#avatar ul.avatar-list li.user-nightbluebot p.dubs:before {
-    content: "known BOT - "
 }
 
 /* dubtrack_bot */
 #chat .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before {
     content: "dubtrack bot";
-    font-size: .75rem;
     background-image: url("https://i.imgur.com/Q0wghn3.png");
 }
-#chat:not(.role-colors-disabled) .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before {
-   color: #ff0097 !important;
-}
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-dubtrack_bot p.username,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-dubtrack_bot p.dubs:before {
+#chat:not(.role-colors-disabled) .chat-main li.user-565aa52e6fe207830052f57f .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-565aa52e6fe207830052f57f p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-565aa52e6fe207830052f57f p.dubs:before {
     color: #ff0097 !important;
+}
+
+/* waddiebot */
+#chat .chat-main li.user-583f643c4f637ac600248bd1 .activity-row .username::before {
+    content: "waddie bot";
+    background-image: url("https://api.dubtrack.fm/user/583f643c4f637ac600248bd1/image");
+}
+#chat:not(.role-colors-disabled) .chat-main li.user-583f643c4f637ac600248bd1 .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-583f643c4f637ac600248bd1 p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-583f643c4f637ac600248bd1 p.dubs:before {
+    color: #dfbf4a !important;
+}
+#avatar ul.avatar-list li.userid-583f643c4f637ac600248bd1 p.dubs:before {
+    content: "known duck & BOT - "
+}
+
+/* netuxbot */
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before {
+    content: "netux (test) bot";
+    padding-left: 0;
+}
+#chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-561da9e034c45e0e0087b6d0 p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-561da9e034c45e0e0087b6d0 p.dubs:before {
+    color: #c3ff00 !important;
+}
+#avatar ul.avatar-list li.userid-561da9e034c45e0e0087b6d0 p.dubs:before {
+    content: "known BOT & Cyborg - ";
 }
 
 /* dillabot */
 #chat .chat-main li.user-578921147c44828300c4dbdb .activity-row .username::before {
     content: "dilla bot";
-    font-size: .75rem;
     background-image: url("https://api.dubtrack.fm/user/578921147c44828300c4dbdb/image");
 }
-#chat:not(.role-colors-disabled) .chat-main li.user-578921147c44828300c4dbdb .activity-row .username::before {
-    color: #8b42ff !important;
-}
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-dillabot p.username,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-dillabot p.dubs:before {
+#chat:not(.role-colors-disabled) .chat-main li.user-578921147c44828300c4dbdb .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-578921147c44828300c4dbdb p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-578921147c44828300c4dbdb p.dubs:before {
     color: #8b42ff !important;
 }
 
 /* jacr */
 #chat .chat-main li.user-572287bd911ea9130006869d .activity-row .username::before {
     content: "jacr bot";
-    font-size: .75rem;
     background-image: url("https://api.dubtrack.fm/user/572287bd911ea9130006869d/image");
 }
-#chat:not(.role-colors-disabled) .chat-main li.user-572287bd911ea9130006869d .activity-row .username::before {
-    color: #009092 !important;
-}
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-jacr p.username,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-jacr p.dubs:before {
+#chat:not(.role-colors-disabled) .chat-main li.user-572287bd911ea9130006869d .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-572287bd911ea9130006869d p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-572287bd911ea9130006869d p.dubs:before {
     color: #009092 !important;
 }
 
 /* eve */
 #chat .chat-main li.user-560164dd2e803803000fffb6 .activity-row .username::before {
     content: "eve bot";
-    font-size: .75rem;
     background-image: url("https://api.dubtrack.fm/user/560164dd2e803803000fffb6/image");
 }
-#chat:not(.role-colors-disabled) .chat-main li.user-560164dd2e803803000fffb6 .activity-row .username::before {
-    color: #e41b1b !important;
-}
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-eve p.username,
-#avatar:not(.role-colors-disabled) ul.avatar-list li.user-eve p.dubs:before {
+#chat:not(.role-colors-disabled) .chat-main li.user-560164dd2e803803000fffb6 .activity-row .username::before,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-560164dd2e803803000fffb6 p.username,
+#avatar:not(.role-colors-disabled) ul.avatar-list li.userid-560164dd2e803803000fffb6 p.dubs:before {
     color: #e41b1b !important;
 }
