@@ -1,8 +1,6 @@
 {
-  "twitchtv": {
-    "SantaHat": null
-  },
   "bettertwitchtv": {
+    "SantaHat": "58487cc6f52be01a7ee5f205",
     "HalloLeft": "56348b5b4830ef1d05f8e646",
     "HalloRight": "56348b714830ef1d05f8e647",
     "HalloWitch": "5801777f8faabf4b3d008434",
