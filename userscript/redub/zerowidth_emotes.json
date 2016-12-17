@@ -1,6 +1,9 @@
 {
   "bettertwitchtv": {
-    "SantaHat": "58487cc6f52be01a7ee5f205",
+    "SantaHat": {
+      "id": "58487cc6f52be01a7ee5f205",
+      "isHat": true
+    },
     "IceCold": "5849c9a4f52be01a7ee5f79d",
     "SoSnowy": "567b5b520e984428652809b6",
     "HalloLeft": "56348b5b4830ef1d05f8e646",
