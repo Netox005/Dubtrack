@@ -32,5 +32,9 @@
   "tiltDance": "https://cdn.betterttv.net/emote/57bcf23ed5219dd112c176b9/2x",
   "cringeBLAKE|wadeBLAKE": "https://cdn.betterttv.net/emote/580a338c3d506fea7ee365eb/2x",
   "cobyFace": "https://cdn.betterttv.net/emote/580564c763c97c037fc9d890/2x",
-  "DogEmoji": "https://github.netux.ml/userscript/redub/DogEmoji.png"
+  "DogEmoji": "https://github.netux.ml/userscript/redub/DogEmoji.png",
+  "mikuCurious": "https://github.netux.ml/userscript/redub/mikuCurious.png",
+  "mikuI": "https://github.netux.ml/userscript/redub/mikuCurious.png",
+  "mikuPls": "https://github.netux.ml/userscript/redub/mikuPls.png",
+  "mikuYay": "https://github.netux.ml/userscript/redub/mikuYay.png"
 }
