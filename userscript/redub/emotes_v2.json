@@ -14,11 +14,12 @@
     "Dagness|lanSadness": "Dagness.png",
     "tessH": "tessH.png",
     "kaleiLewd|sillyLewd": "kaleiLewd.png",
-    "DogEmoji": "https://github.netux.ml/userscript/redub/DogEmoji.png",
+    "DogEmoji": "DogEmoji.png",
     "mikuCurious": "mikuCurious.png",
     "mikuI": "mikuI.png",
     "mikuPls": "mikuPls.png",
-    "mikuYay": "mikuYay.png"
+    "mikuYay": "mikuYay.png",
+    "DabEmoji": "DabEmoji.png"
   },
   "twitchtv": {
     "bingWhat": "54439",
