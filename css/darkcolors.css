@@ -1,0 +1,87 @@
+/* COMPLEMENTARY FILE, should be imported into another stylesheet file */
+/* Based on MikuPlugin's implementation and colors */
+
+/* Darker blue overall */
+#main-loading,
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg,
+#main_player .player_header span.active,
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
+#chat .pusher-chat-widget-input #new-messages-counter,
+#private-messages .loading,
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
+#browser .browser-content .browser-content-main .nano .loading,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info,
+#browser .browser-content .browser-content-header .close-browser,
+#browser .browser-content #import-playlist-container .close-import-playlist,
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist, #browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-form .icon-createplaylist,
+#browser .browser-content #import-playlist-container .import-playlist-soundcloud span,
+#browser .browser-content #import-playlist-container .import-playlist-youtube span,
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loading,
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress,
+.playerPreview .player-preview-container-wrapper .ui-slider-range {
+    background-color: #547BC9;
+}
+#container-room-list .room-item .roomImage .join {
+	background-color: rgba(84, 123, 201, .5);
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api li.selected {
+	border-color: #547BC9 !important;
+}
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron,
+#main-room .left_section #main_player .play-song-link-container .play-song-link-browser i,
+#room-info-display .room-info-display-wrapper .header span i,
+#chat .chat-options .chat-option-buttons span:hover,
+#chat .chat-options .chat-option-buttons span.active i,
+#chat .chat-container .chat-messages .chat-main li.system,
+#container-room-list .room-item header .user-info a,
+#main-menu-left nav a.room-active-link,
+#private-messages .main-message-list ul.message-list li.message-item .message-content h3,
+#private-messages .message-details ul.message-list li.message-item .message-content h3,
+#browser .browser-content .browser-content-main .sidebar .import-playlist span,
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,
+#browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-display span,
+#browser .browser-content #import-playlist-container .playlist-type-select span:hover,
+a:hover,
+a:focus {
+	color: #547BC9;
+}
+#chat .chat-options .chat-option-buttons span.active,
+#chat .chat-options .chat-option-buttons span.active:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api li .description span,
+.playerPreview .song-info .song-info-wrapper .below * {
+	color: #547BC9 !important;
+}
+
+/* Darker header and footer, both the same color */
+#header-global, #player-controller {
+	background-color: rgba(0, 0, 0, .75);
+}
+#player-controller .right, #player-controller .left {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* Vote button background */
+#player-controller .right ul li .dubup.voted {
+	background-color: #90AD2F;
+}
+#player-controller .right ul li .dubdown.voted {
+	background-color: #C42E3B;
+}
+
+/* Browser playlist color fix */
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
+	color: #222;
+}
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected span[class^="icon-"],
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected .playlist-items-count {
+	color: #444;
+}
+
+/* Browser song queue message background color fix */
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success {
+	background-color: #547BC9;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-error {
+	background-color: #C42E3B;
+}
