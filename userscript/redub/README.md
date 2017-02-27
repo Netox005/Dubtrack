@@ -1,1 +1,1 @@
-# [Install here](https://gde.netux.ml/)
+# [Install _give dem emotes_ here](https://gde.netux.ml/)
