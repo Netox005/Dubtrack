@@ -29,7 +29,7 @@ html {
 
 /* Left menu width fix */
 #main-menu-left {
-   width: 13.125rem;
+    width: 13.125rem;
 }
 
 /* Song title height fix */
@@ -46,4 +46,9 @@ html {
     #player-controller .left {
     	padding-right: 25.2rem;
     }
+}
+
+/* Fix vertical position of add-to-playlist popover */
+#addToPlaylistFloatContainer {
+	bottom: 3.5rem;
 }
