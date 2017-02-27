@@ -1,0 +1,45 @@
+@import url("https://github.netux.ml/css/custom/geem.css"); /* custom/geem.css features */
+
+/* Darker blue overall */
+#main-loading,
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg,
+#main_player .player_header span.active,
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
+#chat .pusher-chat-widget-input #new-messages-counter {
+    background-color: #547BC9;
+}
+#container-room-list .room-item .roomImage .join {
+	background-color: rgba(84, 123, 201, .5);
+}
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron,
+#main-room .left_section #main_player .play-song-link-container .play-song-link-browser i,
+#room-info-display .room-info-display-wrapper .header span i,
+#chat .chat-options .chat-option-buttons span:hover,
+#chat .chat-options .chat-option-buttons span.active i,
+#chat .chat-container .chat-messages .chat-main li.system,
+#container-room-list .room-item header .user-info a,
+#main-menu-left nav a.room-active-link,
+a:hover,
+a:focus {
+	color: #547BC9;
+}
+#chat .chat-options .chat-option-buttons span.active,
+#chat .chat-options .chat-option-buttons span.active:hover {
+	color: #547BC9 !important;
+}
+
+/* Darker header and footer, both the same color */
+#header-global, #player-controller {
+	background-color: rgba(0, 0, 0, .75);
+}
+#player-controller .right, #player-controller .left {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* Vote button background */
+#player-controller .right ul li .dubup.voted {
+	background-color: #90AD2F;
+}
+#player-controller .right ul li .dubdown.voted {
+	background-color: #C42E3B;
+}
