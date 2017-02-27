@@ -1,0 +1,18 @@
+/* COMPLEMENTARY FILE, should be imported into another stylesheet file, which also imports videosmall.css */
+
+@media screen and (min-width: 72em) { /* If not "phone mode" */
+    /* Main function */
+    #main_player {
+        float: left;
+    }
+
+    /* Buttons fix */
+    #main_player .player_header {
+        left: initial;
+        right: -73px;
+    }
+    #main_player .player_header span {
+        padding: .5rem .5rem .5rem 0;
+        border-radius: 0 1rem 1rem 0;
+    }
+}
