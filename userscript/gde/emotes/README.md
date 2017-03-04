@@ -4,9 +4,9 @@
 **Code (of an emote):** Also called Regexp/RegExp, it's the "name" of the emote, the text used to represent it. E.g. Kappa, LUL, PANTSU
 **Endpoint:** Term used to refer to the URL used to fetch a resource from the internet, the _end point_ of an API. E.g. the URL of any of _give dem emotes_ supported group's API. 
 
-#### FAQ
+### FAQ
 
-### What are Zero-Width emotes?
+#### What are Zero-Width emotes?
 `zero-width` emotes are one's that don't actually occupy space, but are overlapped on other emotes (like SantaHat)
 
 | ![:Kappa:SantaHat:](../readme-resources/zero-width_1.jpeg) |
@@ -25,7 +25,7 @@ And yes, you can stack them!
 |:--------------------------------------------------------------------:|
 |                     `:Kappa:SantaHat:HalloHalo:`                     |
 
-### What are the emotes with a hyphen (`-`) and a number after their code?
+#### What are the emotes with a hyphen (`-`) and a number after their code?
 While fetching the emotes, _give dem emotes_ lower-cases their code. This allows for typing `:Kappa:`, `:kappa:` or `:kAppA:` and still get the same result.
 Problem comes when on an endpoint they are multiple emotes who's code, when lower-cased, is the same.
 To solve this problem, if there is already an emote with the lower-cased code registered on the same group, _give dem emotes_ adds a "-<number>" after it.
