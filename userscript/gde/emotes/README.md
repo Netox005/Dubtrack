@@ -90,7 +90,7 @@ Also, please remove any extra transparent pixels on the image.
     - Add the image to this folder (`/userscript/gde/emotes/`) and add the emote
 - Go to the JSON file and add the emote at the bottom of the group.
 - Create a Pull Request
-    - The title should be "New emote for <group>: <code>"
+    - The title should be "New emote for `<group>`: `<code>`"
     - Make sure to give credit to the author of the image, in case it wasn't you
 
 Example of file with new emote
