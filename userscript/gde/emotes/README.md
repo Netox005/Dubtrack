@@ -1,33 +1,37 @@
-#### Glossary
+### Glossary
 **Group:** Collection of emotes from the same source. E.g. TwitchTV, Better TwitchTV, _give dem emotes_
 **Zero-Width emote:** Emotes that overlap other emotes, more information below.
 **Code (of an emote):** Also called Regexp/RegExp, it's the "name" of the emote, the text used to represent it. E.g. Kappa, LUL, PANTSU
 **Endpoint:** Term used to refer to the URL used to fetch a resource from the internet, the _end point_ of an API. E.g. the URL of any of _give dem emotes_ supported group's API. 
 
-##### FAQ
+#### FAQ
 
-#### What are Zero-Width emotes?
+### What are Zero-Width emotes?
 `zero-width` emotes are one's that don't actually occupy space, but are overlapped on other emotes (like SantaHat)
-![:Kappa:SantaHat:](../readme-resources/zero-width_1.jpeg)
-`:Kappa:SantaHat:`
+
+| ![:Kappa:SantaHat:](../readme-resources/zero-width_1.jpeg) |
+|:----------------------------------------------------------:|
+|                     `:Kappa:SantaHat:`                     |
 
 The emotes have to be next to each other, or else they will appear separated:
-![:Kappa: :SantaHat:](../readme-resources/zero-width_2.jpeg)
-`:Kappa: :SantaHat:`
+
+| ![:Kappa: :SantaHat:](../readme-resources/zero-width_2.jpeg) |
+|:------------------------------------------------------------:|
+|                    `:Kappa: :HalloHalo:`                     |
 
 And yes, you can stack them!
-![:Kappa:SantaHat:HalloHalo:](../readme-resources/zero-width_3.jpeg)
-`:Kappa:SantaHat:HalloHalo:`
 
-#### What are the emotes with a hyphen (`-`) and a number after their code?
+| ![:Kappa:SantaHat:HalloHalo:](../readme-resources/zero-width_3.jpeg) |
+|:--------------------------------------------------------------------:|
+|                     `:Kappa:SantaHat:HalloHalo:`                     |
+
+### What are the emotes with a hyphen (`-`) and a number after their code?
 While fetching the emotes, _give dem emotes_ lower-cases their code. This allows for typing `:Kappa:`, `:kappa:` or `:kAppA:` and still get the same result.
 Problem comes when on an endpoint they are multiple emotes who's code, when lower-cased, is the same.
 To solve this problem, if there is already an emote with the lower-cased code registered on the same group, _give dem emotes_ adds a "-<number>" after it.
 
-#### 
-
-#### Requesting emotes
-##### Files
+### Requesting emotes
+#### Files
 [`api.json`](api.json) and [`api_zerowidth.json`](api_zerowidth.json) are the files storing _give dem emotes_'s emotes, along with some extras.
 Both files have the format:
 ```js
@@ -41,7 +45,7 @@ Both files have the format:
 
 If the emote should have more than one code, then separate them with a vertical line (`|`). E.g. "yeahsure|yeasure" will make `:yeahsure:` and `:yeasure:` render the same emote.
 
-###### `api.json`
+##### `api.json`
 
 |       Group       | `DATA` is | Where to get it | Example |
 |:-----------------:| --------- | --------------- | ------- |
@@ -53,7 +57,7 @@ If the emote should have more than one code, then separate them with a vertical 
 |     DeviantArt    | Emote's image object → `subdomain` and `path` | [DeviantArt's emoticons section](https://www.deviantart.com/browse/all/customization/emoticons/animated/). Make sure the sizes are at least in Medium. Right click on the emote's image, open in a new tab, and get the `DATA` from the URL as is: http://**SUBDOMAIN**.deviantart.net/**PATH** | `{ "subdomain": (REDACTED), "path": (REDACTED) }`
 | _give dem emotes_ | Emote's image file name or Emote's image URL (if it's from an external source) | Custom! Make them yourself ;) | `"catbugDance": "catbugDance.gif"`
 
-###### `api_zerowidth.json`
+##### `api_zerowidth.json`
 This file is more limited, only TwitchTV and Better TwitchTV emotes are supported, and there can't be multiple emotes. 
 
 `DATA` is...
@@ -68,11 +72,11 @@ or, if the emote should be pushed to the top a little:
 }
 ```
 
-##### Size
+#### Size
 On custom emotes, the image must be at least 200 pixels in width and/or height. E.g. 200x200, 200x199, 199x200.
 Please remove any 
 
-##### How to
+#### How to
 - Check if the emote is already on _give dem emotes_
 - Fork this repository.
 - If the emote is custom (_give dem emotes_)...
