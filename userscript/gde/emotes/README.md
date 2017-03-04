@@ -1,11 +1,14 @@
 ### Glossary
 **Group:** Collection of emotes from the same source. E.g. TwitchTV, Better TwitchTV, _give dem emotes_
+
 **Zero-Width emote:** Emotes that overlap other emotes, more information below.
+
 **Code (of an emote):** Also called Regexp/RegExp, it's the "name" of the emote, the text used to represent it. E.g. Kappa, LUL, PANTSU
+
 **Endpoint:** Term used to refer to the URL used to fetch a resource from the internet, the _end point_ of an API. E.g. the URL of any of _give dem emotes_ supported group's API. 
 
-### FAQ
 
+### FAQ
 #### What are Zero-Width emotes?
 `zero-width` emotes are one's that don't actually occupy space, but are overlapped on other emotes (like SantaHat)
 
@@ -27,8 +30,11 @@ And yes, you can stack them!
 
 #### What are the emotes with a hyphen (`-`) and a number after their code?
 While fetching the emotes, _give dem emotes_ lower-cases their code. This allows for typing `:Kappa:`, `:kappa:` or `:kAppA:` and still get the same result.
+
 Problem comes when on an endpoint they are multiple emotes who's code, when lower-cased, is the same.
+
 To solve this problem, if there is already an emote with the lower-cased code registered on the same group, _give dem emotes_ adds a "-<number>" after it.
+
 
 ### Requesting emotes
 #### Files
@@ -74,7 +80,8 @@ or, if the emote should be pushed to the top a little:
 
 #### Size
 On custom emotes, the image must be at least 200 pixels in width and/or height. E.g. 200x200, 200x199, 199x200.
-Please remove any 
+
+Also, please remove any extra transparent pixels on the image.
 
 #### How to
 - Check if the emote is already on _give dem emotes_
