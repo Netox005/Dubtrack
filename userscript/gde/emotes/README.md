@@ -35,6 +35,11 @@ Problem comes when on an endpoint they are multiple emotes who's code, when lowe
 
 To solve this problem, if there is already an emote with the lower-cased code registered on the same group, _give dem emotes_ adds a "-<number>" after it.
 
+#### I want to use a certain emote, but another emote appears
+This is probably because another group has an emote with the same code lower-cased. In that case, use `:group>code:` instead of just `:code:`.
+
+If the problem persists, then you should consider [requesting the emote](#requesting-emotes)
+
 
 ### Requesting emotes
 #### Files
