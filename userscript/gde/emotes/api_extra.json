@@ -1,0 +1,91 @@
+{
+  "normal": {
+    "twitchtv": {
+      "bingWhat": "54439",
+      "nadiaNSFW": "91516",
+      "nb3Lewd": "59539",
+      "goobyC": "99562",
+      "bing3": "91413",
+      "nb3Wc": "14393",
+      "nb3Rip": "78380",
+      "bingBruh": "103415"
+    },
+    "bettertwitchtv": {
+      "snakyGasm": "57391c5ea5ec55e513981713",
+      "FeelsAhhMan": "579c81a721ee72947bb03adf",
+      "AmazingAhh": "57d380092954a51271410052",
+      "KKaper": "566d3352fb7103f332d79dbe",
+      "KKone": "566d333cfb7103f332d79dbd",
+      "dancePls": "55f5e7cd7f08be9f0a63d008",
+      "reckClap": "57b556052fd9015443246850",
+      "tiltDance": "57bcf23ed5219dd112c176b9",
+      "cringeBLAKE|wadeBLAKE": "580a338c3d506fea7ee365eb",
+      "cobyFace": "580564c763c97c037fc9d890",
+      "GoldenLUL": "58567a7669465721a43c235a",
+      "FeelsPepoMan": "5771aa498bbc1e572cb7ae4d",
+      "Clap": "55b6f480e66682f576dd94f5",
+      "domPls": "5606173d5060643b75a9e4b5",
+      "domShy": "5869c216cb2b7248f8b9853b",
+      "domDrool": "5869c1efcb2b7248f8b98539",
+      "domRage": "55fa4d497e799baf7cac4f04",
+      "mareBoo": "57a2b97537fb28a41e7d2057",
+      "ecchiNot": "56677e5981069a804918a72e",
+      "domSigh": "5869c238cb2b7248f8b9853c",
+      "domSmug": "5869c24dcb2b7248f8b9853d",
+      "domWhat": "5786d2def1bf2c1003a88bd4",
+      "domCreep": "5786d2f2f1bf2c1003a88bd5",
+      "FeelsWeebMan": "56c7e0eb5ec5efb9511d0f6b",
+      "snakyDance": "56d16ae28f9559b53e40fc96",
+      "loliPls": "57183e39a888c3815834ab3a",
+      "loliDance": "55c3bf392d2a14df194e31ed",
+      "snakyHappy": "56d16ab58f9559b53e40fc94"
+    },
+    "frankerfacez": {
+      "Flapjack": "96175",
+      "WeAreNumber1|WeAreNumberOne": "148130",
+      "EXPLOSION": "115412"
+    },
+    "deviantart": {
+      "hoot": {
+        "subdomain": "orig01",
+        "path": "c53a/f/2016/312/8/7/hoot_until_you_drop_by_volttecher-danrgcu.gif"
+      }
+    }
+  },
+  "zero-width": {
+    "bettertwitchtv": {
+      "SantaHat": {
+        "id": "58487cc6f52be01a7ee5f205",
+        "isHat": true
+      },
+      "IceCold": "5849c9a4f52be01a7ee5f79d",
+      "SoSnowy": "567b5b520e984428652809b6",
+      "HalloLeft": "56348b5b4830ef1d05f8e646",
+      "HalloRight": "56348b714830ef1d05f8e647",
+      "HalloWitch": {
+        "id": "5801777f8faabf4b3d008434",
+        "isHat": true
+      },
+      "HalloHalo": {
+        "id": "58017bcc8faabf4b3d008456",
+        "isHat": true
+      },
+      "HalloKKona": {
+        "id": "58017be38faabf4b3d00845a",
+        "isHat": true
+      },
+      "HalloHorns": {
+        "id": "58017bf38faabf4b3d00845d",
+        "isHat": true
+      },
+      "HalloFedora": {
+        "id": "58017c088faabf4b3d008460",
+        "isHat": true
+      },
+      "HalloPirate": {
+        "id": "5802e7a5d336345f3d4e1ed5",
+        "isHat": true
+      }
+    }
+  }
+}
