@@ -102,7 +102,7 @@ where...
 |    FrankerFaceZ   | Emote's ID | [frankerfacez.com/emoticons/](https://www.frankerfacez.com/emoticons/). Use the bar on the left to find the emote you want and click on it's name, the ID should be the numbers at the end of the URL (without the "-emote's code" part). | `"OhMyDood": "89824"`
 |     DeviantArt    | Emote's image object → `subdomain` and `path` | [DeviantArt's emoticons section](https://www.deviantart.com/browse/all/customization/emoticons/animated/). Make sure the sizes are at least in Medium. Right click on the emote's image, open in a new tab, and get the `DATA` from the URL as is: http://**SUBDOMAIN**.deviantart.net/**PATH** | `{ "subdomain": (REDACTED), "path": (REDACTED) }`
 
-**Note:** For _give dem emotes_ emotes, please refer to [`api_custom.json`](#api_custom_json)
+**Note:** For _give dem emotes_ emotes, please refer to [`api_custom.json`](#api_customjson)
 
 ##### Zero-Width emotes are special....
 
@@ -132,7 +132,8 @@ Also, no extra transparent space should be on the image.
     - The title should be "New emote for `<group>`: `<code>`"
     - Make sure to give credit to the author of the image, in case it wasn't you
 
-Example of file with new emote
+Example of files:
+
 `api_custom.json`
 ```js
 {
