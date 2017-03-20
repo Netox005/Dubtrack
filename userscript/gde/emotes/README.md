@@ -77,7 +77,7 @@ The image path is determined by the code (or first code, in case of multiple) + 
 
 #### `api_extra.json`
 This file contains additional emotes that are not found on other APIs.
-It's format is the emotes codes set to it data, separated by group, separated by type (normal or zero-width)
+It's format is the emotes codes set to it data, separated by group, separated by type ("normal" or "zerowidth")
 
 ```js
 {
@@ -161,7 +161,7 @@ Example of files:
             }
         }
     },
-    "zero-width": {
+    "zerowidth": {
         //... other groups
         "bettertwitchtv": {
             "<emote code>": "<ID>",
