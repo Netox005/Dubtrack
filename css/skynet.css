@@ -3,10 +3,10 @@
 DUBTRACK USERNAME  ||     DUBTRACK USER ID     || DUBTRACK ROOM URL
 ================== || ======================== || =================
 totallynotatestbot || 5841c5139c2bef1100a85441 || <N/A>
-	  nightbluebot || 56b2054200550001019554c8 || nightblue3
+	  nightbluebot || 56b2054200550001019554c8 || <N/A>
 	  dubtrack_bot || 565aa52e6fe207830052f57f || <SITE-WIDE>
 	   donnietrump || 584411267e80c8cc001fde6c || a-magical-journey
-		 waddiebot || 583f643c4f637ac600248bd1 || kappacave
+		 waddiebot || 583f643c4f637ac600248bd1 || horizon
 		  netuxbot || 561da9e034c45e0e0087b6d0 || <N/A>
           dillabot || 578921147c44828300c4dbdb || beats
 			  jacr || 572287bd911ea9130006869d || just-a-chill-room
@@ -112,10 +112,10 @@ totallynotatestbot || 5841c5139c2bef1100a85441 || <N/A>
 }
 
 #chat .chat-main li.user-5841c5139c2bef1100a85441:hover .activity-row .meta-info::before { content: "AngeloidIkaros's testing BOT"; }
-#chat .chat-main li.user-56b2054200550001019554c8:hover .activity-row .meta-info::before { content: "Nightblue3 Room BOT"; }
+#chat .chat-main li.user-56b2054200550001019554c8:hover .activity-row .meta-info::before { content: "Moved to Plug.DJ"; }
 #chat .chat-main li.user-565aa52e6fe207830052f57f:hover .activity-row .meta-info::before { content: "Dubtrack Official BOT"; }
 #chat .chat-main li.user-584411267e80c8cc001fde6c:hover .activity-row .meta-info::before { content: "A Magical Journey Room Official BOT"; }
-#chat .chat-main li.user-583f643c4f637ac600248bd1:hover .activity-row .meta-info::before { content: "KappCave Room Official BOT"; }
+#chat .chat-main li.user-583f643c4f637ac600248bd1:hover .activity-row .meta-info::before { content: "Horizon Room Official BOT"; }
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0:hover .activity-row .meta-info::before { content: "Netux's testing BOT"; }
 #chat .chat-main li.user-578921147c44828300c4dbdb:hover .activity-row .meta-info::before { content: "[BEATS] Room Official BOT"; }
 #chat .chat-main li.user-572287bd911ea9130006869d:hover .activity-row .meta-info::before { content: "Just a chill room Official BOT"; }
@@ -162,7 +162,7 @@ totallynotatestbot || 5841c5139c2bef1100a85441 || <N/A>
 
 /* totallynotatestbot */
 #chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username::before {
-    content: "totally not ika's test bot";
+    content: "totally not Ika's testing bot";
     padding-left: 0;
 }
 #chat .chat-main li.user-5841c5139c2bef1100a85441 .activity-row .username::before,
@@ -171,7 +171,7 @@ totallynotatestbot || 5841c5139c2bef1100a85441 || <N/A>
     color: #a74fe3 !important;
 }
 #avatar ul.avatar-list li.userid-5841c5139c2bef1100a85441 p.dubs:before {
-    content: "not really known BOT - ";
+    content: "testing BOT - ";
 }
 
 /* nightbluebot */
@@ -218,12 +218,12 @@ totallynotatestbot || 5841c5139c2bef1100a85441 || <N/A>
     color: #dfbf4a !important;
 }
 #avatar ul.avatar-list li.userid-583f643c4f637ac600248bd1 p.dubs:before {
-    content: "known duck & BOT - "
+    content: "duck & BOT - "
 }
 
 /* netuxbot */
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before {
-    content: "netux (test) bot";
+    content: "netux's testing bot";
     padding-left: 0;
 }
 #chat .chat-main li.user-561da9e034c45e0e0087b6d0 .activity-row .username::before,
@@ -232,7 +232,7 @@ totallynotatestbot || 5841c5139c2bef1100a85441 || <N/A>
     color: #c3ff00 !important;
 }
 #avatar ul.avatar-list li.userid-561da9e034c45e0e0087b6d0 p.dubs:before {
-    content: "known BOT & Cyborg - ";
+    content: "cyborg & BOT - ";
 }
 
 /* dillabot */
