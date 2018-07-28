@@ -1,6 +1,14 @@
-/*
-Enjoy Dubtrack in full screen!.
+/* ==UserStyle==
+@name           fullscreening
+@namespace      github.netux.site/Dubtrack/css
+@version        1.0.0
+@description    Enjoy Dubtrack in full screen!.
+@author         Martín "Netux" Rodriguez (https://me.netux.site)
+@license        SAX-PD
+@homepageURL    https://github.com/netux/Dubtrack/css
+==/UserStyle== */
 
+/*
 Features:
 - chat to the right
 - video player without padding filling the space left

@@ -1,3 +1,5 @@
+/* COMPLEMENTARY FILE, should be imported into another stylesheet file */
+
 /* Reload icon spin on hover */
 #main-room .left_section #main_player .player_sharing span.icon-reload {
     transition: transform .5s cubic-bezier(0, 0, .33, 1.5);

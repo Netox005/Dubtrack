@@ -1,7 +1,15 @@
-/*
-SEMI-COMPLEMENTARY FILE, can be imported into another stylesheet file as well as to function as an individual style
+/* ==UserStyle==
+@name           smull
+@namespace      github.netux.site/Dubtrack/css
+@version        1.0.0
+@description    Making Dubtrack a liiiiiiiiiiiiiiiiiittle bit smaller.
+@author         Martín "Netux" Rodriguez (https://me.netux.site)
+@license        SAX-PD
+@homepageURL    https://github.com/netux/Dubtrack/css
+==/UserStyle== */
 
-Making Dubtrack a liiiiiiiiiiiiiiiiiittle bit smaller (you know, just .05% smaller)
+/*
+SEMI-COMPLEMENTARY FILE, could be imported into another stylesheet file as well as to function as an individual style
 
 Features:
 - Reduces Dubtrack's overall size by .05%. Making it easier on the eyes.
