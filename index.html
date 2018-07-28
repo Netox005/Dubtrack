@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dubtrack CSS</title>
+  <title>Netux's Dubtrack Stuff collection</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    p { margin: 0; }
-    p.small { font-size: .5rem; color: gray; }
-    *[title] { border: 0 solid black; border-bottom-width: 1px; border-bottom-style: dotted; cursor: help; }
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+
+    ul > li > a {
+      font-weight: bold;
+    }
+
+    small {
+      font-size: .5rem;
+      color: gray;
+    }
+
+    .help {
+      border-bottom: 1px dotted black;
+      cursor: help;
+    }
   </style>
 </head>
 <body>
-  <p class="small">So GitHub wants me to add this page for GitHub Pages to work...</p>
+  <small>So GitHub wants me to add this page for GitHub Pages to work...</small>
   <p>Useful links:</p>
   <ul>
     <li>
-      <a href="css/main.css">Dubtrack Main CSS</a>
-      <span title="To install, copy and paste the link on DubX.">(?)</span>
+      <a href="css/fullscreening.css">fullscreening.css</a>
+      Experience Dubtrack with no blackspace!
     </li>
     <li>
-      <a href="userscript/dte-lite.user.js">Dubtrack-Extras [Lite]</a>
-      <span title="To install, download Greasemonkey Add-On on Firefox or Tampermonkey Extension on Chrome">Userscript</span>
+      <a href="css/smull.css">smull.css</a>
+      Just a tad smaller
     </li>
     <li>
-      <a href="userscript/propscmd.user.js">Dubtrack Props Command</a>
-      <span title="To install, download Greasemonkey Add-On on Firefox or Tampermonkey Extension on Chrome">Userscript</span>
+      <a href="css/main.css">main.css</a>
+      Style used by the previous members of the <i>nb3 room</i>
     </li>
   </ul>
+  <span class="help">
+    To install, copy and paste the link on Dub+ or copy and paste contents into Stylus
+  </span>
 </body>
 </html>
