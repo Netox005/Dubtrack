@@ -7,10 +7,12 @@ Features:
 
 Imports:
 - Queue buttons below video on the right part of the footer
+- NB3 vote icons
 - recognizable room BOTs in chat
 - a pack of animations
 - an improvement on the browser and the room edit form
 - netux's fixes (including mobile view)
+- Heebee's Rainbow progress bar.
 */
 
 /* Imports */
@@ -18,8 +20,10 @@ Imports:
 @import url("https://github.netux.site/Dubtrack/css/queuetofooter.css"); /* Queue buttons on right footer */
 @import url("https://github.netux.site/Dubtrack/css/animations.css"); /* Pack of animations */
 @import url("https://github.netux.site/Dubtrack/css/skynet.css"); /* Better recognizable Room BOTs */
+@import url("https://github.netux.site/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
 @import url("https://github.netux.site/Dubtrack/css/browserbetter.css"); /* Modified Browser */
 @import url("https://github.netux.site/Dubtrack/css/roomformbetter.css"); /* Modified Room Form */
+@import url("https://hebgbs.github.io/rainbowNB3.css"); /* Rainbow video progress bar */
 @import url("https://github.netux.site/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
 
 /* Main function */

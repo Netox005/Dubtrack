@@ -56,7 +56,7 @@ html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxib
 #room-main-player-container-soundcloud { background-color: #111111; cursor: default; }
 #main_player .player_container #room-main-player-container .playerElement.soundcloud img { pointer-events: none; }
 
-/* ETA fixes (DubX) */
+/* ETA fixes (Dub+) */
 .eta_tooltip, .snooze_tooltip { border-top-right-radius: 0 !important; transform: translateX(-7px); }
 .eta_tooltip::before, .snooze_tooltip::before {
     content: "";
