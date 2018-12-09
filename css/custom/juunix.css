@@ -1,5 +1,5 @@
 /* Imports */
-@import url("https://rawgit.com/TickingTime/TickingTimeCSS/master/CSS.css"); /* TickingTime's stylesheet */
+@import url("https://cdn.jsdelivr.net/gh/TickingTime/TickingTimeCSS@master/CSS.css"); /* TickingTime's stylesheet */
 
 /* Inverting video small in a special way due to the way TickingTime's stylesheet implements stuff */
 #main-room .left_section {
